@@ -47,6 +47,15 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Universo Radio custom colors
+        radio: {
+          gold: "hsl(var(--radio-gold))",
+          "gold-light": "hsl(var(--radio-gold-light))",
+          blue: "hsl(var(--radio-blue))",
+          "blue-light": "hsl(var(--radio-blue-light))",
+          purple: "hsl(var(--radio-purple))",
+          "purple-dark": "hsl(var(--radio-purple-dark))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -58,10 +67,22 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
       },
+      backgroundImage: {
+        "gradient-hero": "var(--gradient-hero)",
+        "gradient-section": "var(--gradient-section)",
+        "gradient-cta": "var(--gradient-cta)",
+      },
+      boxShadow: {
+        glow: "var(--shadow-glow)",
+        card: "var(--shadow-card)",
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      transitionTimingFunction: {
+        smooth: "var(--transition-smooth)",
       },
       keyframes: {
         "accordion-down": {
