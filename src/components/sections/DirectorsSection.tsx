@@ -19,9 +19,9 @@ const DirectorsSection = () => {
       name: "Dra. Yaris Matellon",
       role: "Directora - Miami",
       email: "yarielkysmatellon@yahoo.com",
-      phone: null,
+      phone: "+121-48827216",
       image: yarisImg,
-      whatsapp: null
+      whatsapp: "12148827216"
     },
     {
       name: "Yanira Domínguez",
