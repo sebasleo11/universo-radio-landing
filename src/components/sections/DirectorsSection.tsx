@@ -70,7 +70,7 @@ const DirectorsSection = () => {
               key={index}
               className="bg-white rounded-2xl p-6 shadow-card hover:shadow-glow transition-all duration-300 hover:scale-105 text-center"
             >
-              <div className="w-24 h-24 mx-auto mb-6 rounded-full overflow-hidden">
+              <div className="w-24 h-24 mx-auto mb-6 rounded-full overflow-hidden border-2 border-radio-gold">
                 <img
                   src={director.image}
                   alt={director.name}
